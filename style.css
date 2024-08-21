@@ -1,0 +1,28 @@
+.bg-img {
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/gwinnettdailypost.com/content/tncms/assets/v3/editorial/9/be/9be2fab6-ce35-11e8-87f8-df58f0e8e03e/5bc0c133deb7a.image.jpg?resize=1035%2C636);
+
+  min-height: 100vh;
+  background-size: cover;
+}
+
+h4 {
+  padding: unset;
+  margin: unset;
+}
+
+.btn {
+  font-size: 32px;
+  min-height: 13vh;
+  max-height: 13vh;
+}
+
+.bet-boxes {
+  border-radius: 40px;
+}
+
+@media screen and(min-height: 768px) {
+
+  .margin-top {
+    margin-top: 100em;
+  }
+}
