@@ -20,9 +20,9 @@ h4 {
   border-radius: 40px;
 }
 
-@media screen and(min-height: 768px) {
+@media screen and (max-width: 768px) {
 
   .margin-top {
-    margin-top: 100em;
+    margin-top: 5em;
   }
 }

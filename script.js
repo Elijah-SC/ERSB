@@ -123,17 +123,18 @@ function draftTeams() {
 
 
 
-
-
-
-
-
-
-
-
 function drawBank() {
   let ElmBank = document.getElementById(`bank`)
   ElmBank.innerText = bank.toString();
+
+  bust()
+
+}
+
+function bust() {
+  if (bank <= 0) {
+    window.alert(`You Lost all Your Money`)
+  }
 }
 
 
